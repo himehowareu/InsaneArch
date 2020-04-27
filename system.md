@@ -1,6 +1,3 @@
-# Insane CPU
-The Insane CPU is a processor that is based on [BrainFuck](https://esolangs.org/wiki/Brainfuck). The main difference is that there are for instences of the interrupter that are interweved. This means that we are able to do more then normal BrainFuck.
-
 ## Memory
 
 Memory is devided into 4 tapes. There are two tapes that are designed to be used for programable memory.The other two tapes are for data calculation, the first one is our ram tape, this is the tape that will be used by the program to do the math. The last tape will be used for interacting with the other modules and setting up the system.
