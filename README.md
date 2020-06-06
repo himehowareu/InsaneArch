@@ -21,10 +21,11 @@ This CPU has four memory tapes. These tapes are axactly like the [memory tape](h
 
 ## Opcodes
 
-As you may have seen this CPU doesn't only use the opcodes that brainfuck 
+As you may have seen this CPU doesn't only use the opcodes that brainfuck, They are extended to add usefullness, this is done by allowing the user to edit the program memory along with adding an extra tape to do math with and interact with the outside world.
 
+### Ram opcodes
 | Command | Description |
-| --- | --- |
+|---|---|
 | ```>``` | Move the pointer to the right |
 | ```<``` | Move the pointer to the left |
 | ```+``` | Increment the memory cell under the pointer |
@@ -33,3 +34,28 @@ As you may have seen this CPU doesn't only use the opcodes that brainfuck
 | ```,``` | Input a character and store it in the cell at the pointer |
 | ```[``` | Jump past the matching ```]``` if the cell under the pointer is 0 |
 | ```]``` | Jump back to the matching ```[``` if the cell under the pointer is nonzero |
+
+### Reg Opcodes
+| Command | Description |
+|---|---|
+| ```=``` | Move the pointer to the right |
+| ```_``` | Move the pointer to the left |
+| ```:``` | Increment the memory cell under the pointer |
+| ```;``` | Decrement the memory cell under the pointer |
+| ```?``` | Output the character signified by the cell at the pointer |
+| ```!``` | Input a character and store it in the cell at the pointer |
+| ```(``` | Jump past the matching ```]``` if the cell under the pointer is 0 |
+| ```)``` | Jump back to the matching ```[``` if the cell under the pointer is nonzero |
+
+### Program Opcodes
+| Command | Description |
+|---|---|
+| ```^``` | Move the pointer to the right |
+| ```*``` | Move the pointer to the left |
+| ```@``` | Increment the memory cell under the pointer |
+| ```$``` | Decrement the memory cell under the pointer |
+| ```???``` | Output the character signified by the cell at the pointer |
+| ```???``` | Input a character and store it in the cell at the pointer |
+| ```{``` | Jump past the matching ```]``` if the cell under the pointer is 0 |
+| ```}``` | Jump back to the matching ```[``` if the cell under the pointer is nonzero |
+| ```%``` | Switch Program Tapes |
