@@ -30,8 +30,8 @@ As you may have seen this CPU doesn't only use the opcodes that brainfuck, They 
 | ```<``` | Move the pointer to the left |
 | ```+``` | Increment the memory cell under the pointer |
 | ```-``` | Decrement the memory cell under the pointer |
-| ```.``` | Output the character signified by the cell at the pointer |
-| ```,``` | Input a character and store it in the cell at the pointer |
+| ```.``` | Output the character signified by the cell at the pointer blocking |
+| ```,``` | Input a character and store it in the cell at the pointer blocking |
 | ```[``` | Jump past the matching ```]``` if the cell under the pointer is 0 |
 | ```]``` | Jump back to the matching ```[``` if the cell under the pointer is nonzero |
 
@@ -44,8 +44,10 @@ As you may have seen this CPU doesn't only use the opcodes that brainfuck, They 
 | ```;``` | Decrement the memory cell under the pointer |
 | ```?``` | Output the character signified by the cell at the pointer |
 | ```!``` | Input a character and store it in the cell at the pointer |
-| ```(``` | Jump past the matching ```]``` if the cell under the pointer is 0 |
-| ```)``` | Jump back to the matching ```[``` if the cell under the pointer is nonzero |
+| ```/``` | Output the character signified by the cell at the pointer blocking |
+| ```\``` | Input a character and store it in the cell at the pointer blocking |
+| ```(``` | Jump past the matching ```)``` if the cell under the pointer is 0 |
+| ```)``` | Jump back to the matching ```(``` if the cell under the pointer is nonzero |
 
 ### Program Opcodes
 | Command | Description |
@@ -54,8 +56,6 @@ As you may have seen this CPU doesn't only use the opcodes that brainfuck, They 
 | ```*``` | Move the pointer to the left |
 | ```@``` | Increment the memory cell under the pointer |
 | ```$``` | Decrement the memory cell under the pointer |
-| ```???``` | Output the character signified by the cell at the pointer |
-| ```???``` | Input a character and store it in the cell at the pointer |
-| ```{``` | Jump past the matching ```]``` if the cell under the pointer is 0 |
-| ```}``` | Jump back to the matching ```[``` if the cell under the pointer is nonzero |
+| ```{``` | Jump past the matching ```}``` if the cell under the pointer is 0 |
+| ```}``` | Jump back to the matching ```{``` if the cell under the pointer is nonzero |
 | ```%``` | Switch Program Tapes |
