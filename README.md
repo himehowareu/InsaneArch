@@ -17,11 +17,11 @@ You can see the difference.
 
 ## Memory layout 
 
-This CPU has four memory tapes. These tapes are axactly like the [memory tape](https://esolangs.org/wiki/Brainfuck#Memory_and_wrapping) that Brainfuck uses. The only werid thing is that we use two of the tapes as program memory. We run out of the one tape whlie the other remains editable.
+This CPU has four memory tapes. These tapes are exactly like the [memory tape](https://esolangs.org/wiki/Brainfuck#Memory_and_wrapping) that Brainfuck uses. The only weird thing is that we use two of the tapes as program memory. We run out of the one tape while the other remains editable.
 
 ## Opcodes
 
-As you may have seen this CPU doesn't only use the opcodes that brainfuck, They are extended to add usefullness, this is done by allowing the user to edit the program memory along with adding an extra tape to do math with and interact with the outside world.
+As you may have seen this CPU doesn't only use the opcodes that brainfuck, They are extended to add usefulness, this is done by allowing the user to edit the program memory along with adding an extra tape to do math with and interact with the outside world.
 
 ### Ram opcodes
 | Command | Description |
