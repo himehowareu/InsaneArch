@@ -1,5 +1,5 @@
 # InsaneArch
-The Insane CPU is a processor that is based on [BrainFuck](https://esolangs.org/wiki/Brainfuck). The main difference is that there are for instances of the interrupter that are interweaved. This means that we are able to do more then normal BrainFuck.If you would like to learn more about what you can do with Brainfuck you can read a copy of  [Brainfuck for dummies](BrainfuckForDummies.md) that is from https://docs.google.com/document/d/1M51AYmDR1Q9UBsoTrGysvuzar2_Hx69Hz14tsQXWV6M/
+The Insane CPU is a processor that is based on [BrainFuck](https://esolangs.org/wiki/Brainfuck). The main difference is that there are for instances of the interrupter that are interweaved. This means that we are able to do more then normal BrainFuck.If you would like to learn more about what you can do with Brainfuck you can read a copy of  [Brainfuck for dummies](BrainfuckForDummies.md) that is from https://docs.google.com/document/d/1M51AYmDR1Q9UBsoTrGysvuzar2_Hx69Hz14tsQXWV6M/ and if you want to read more about how you do math with Brainfuck [here](algorithms.md); This is a copy from https://esolangs.org/wiki/Brainfuck_algorithms.
 
 For example the you could load the text:
 
