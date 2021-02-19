@@ -1,4 +1,4 @@
-
+# Brainfuck Algorithms
 In the interest of generality, the algorithms will use variable names in place of the < and > instructions.  Temporary cells are denoted "temp".  When using an algorithm in a program, replace the variable names with the correct number of < or > instructions to position the pointer at the desired memory cell.
 
 Example:
@@ -17,7 +17,7 @@ becomes:
 
 If a particular algorithm requires cell value wrapping, this will be noted, along with a non-wrapping version, if known.  Certain assumptions, such as that a temporary memory cell is already zero, or that a variable used for computation can be left zeroed, are not made.  Some optimizations can therefore be performed when exact conditions are known.
 
-## Header comment
+## Comments
 
 The usefulness of this type of comment is that instructions commonly used for   punctuation (such as "," and ".") may be used freely.  The use of "[" and "]" inside a comment should be avoided, unless they are matched. This commenting style does not work well for internal code comments, unless strategically placed where the cell value is known to be zero (or can be modified to be zero and restored)
 ```
