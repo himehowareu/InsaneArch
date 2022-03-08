@@ -1,5 +1,5 @@
 # File IO
-## Hardweare
+## Hardware
 There will be a SD card attached to the board. this will be used for storage. It will be accessed through a register, using the SD card api. This api will be handed with a small subsystem that will talk to the SD card and future storage devices. Having a storage system that can be used to save and load data from will allow us to write larger programs as they can be dynamically loaded as well as let us write a native compiler.
 ## SD Card API
 ### System
